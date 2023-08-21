@@ -10,7 +10,6 @@
       { id: 6, name: "Universities" },
       { id: 7, name: "4G Operators" },
       { id: 8, name: "US Contractors" },
-      { id: 9, name: "Everything RF" }
     ];
   
     export let selectedVerticalName = "Aeronautical";
@@ -55,3 +54,5 @@
         border: 0;
     }
 </style>
+
+

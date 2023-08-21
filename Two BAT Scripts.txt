@@ -1,0 +1,7 @@
+Two BAT Scripts to call from the frontend
+C:\Python_Basheer\Sales_Force\Archive\run.bat
+
+Everything RF
+C:\Python_Basheer\Everything_Rf\amplitech\run.BAT
+
+Turn Salesforce Marketing and Salesforce Follow Up into one button 

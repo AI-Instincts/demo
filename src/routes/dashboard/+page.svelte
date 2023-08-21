@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import Button from "$lib/components/Button.svelte";
 	import Companies from "$lib/components/Companies.svelte";
 	import TemplateSelector from "$lib/components/TemplateSelector.svelte";
@@ -18,7 +18,6 @@
         </div>
         <div slot="column2">
             <div class="flex flex-col items-center space-y-12">
-                <!-- Wrap the h1 in its own container -->
                 <div>
                     {#key `${selectedVertical}-${selectedCompany}`}
                         <h1 transition:slide class="font-medium text-center">{selectedVertical} & {selectedCompany}</h1>
@@ -33,4 +32,4 @@
             <Companies bind:selectedCompany={selectedCompany} />
         </div>
     </ThreeCols>
-</div>
+</div> -->

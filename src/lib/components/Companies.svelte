@@ -4,14 +4,14 @@
     const dispatch = createEventDispatcher()
 
     let companies = [
-      { id: 1, name: "Amplitech" },
+      { id: 1, name: "AmpliTech" },
       { id: 2, name: "MMIC" },
       { id: 3, name: "Specialty Microwave" },
       { id: 4, name: "Spectrum" },
       { id: 5, name: "5G" }
     ];
 
-    export let selectedCompany = 'Amplitech';
+    export let selectedCompany = 'AmpliTech';
     function handleRadioChange(event: any) {
         selectedCompany = event.target.value;
         console.log(selectedCompany)

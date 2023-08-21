@@ -1,4 +1,7 @@
 <script>
+    import { createEventDispatcher } from "svelte";
+    
+    const dispatch = createEventDispatcher()
     let buttonText = "Activate Sales"; // Default button text
     let isClicked = false;
 
@@ -10,7 +13,10 @@
             buttonText = "Activate Sales";
             isClicked = false;
         }
+        dispatch('click')
     }
+
+
 </script>
 
 <button on:click={handleClick} class="glow-on-hover {isClicked ? 'clicked' : ''}">
